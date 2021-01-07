@@ -3,6 +3,10 @@ eureka:
     service-url:
       defaultZone: http://127.0.0.1:8761/eureka/
 
+  #http://clientname:8080/info
+  instance:
+    hostname: clientName
+
 spring:
   application:
     name: client
